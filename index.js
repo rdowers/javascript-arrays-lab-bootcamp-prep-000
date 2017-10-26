@@ -13,6 +13,9 @@ function destructivelyPrependKitten(name) {
   return kittens.unshift(name);
 };
 
+// below done with splice for fun. the solution has pop and shift, respectively
+
+
 function destructivelyRemoveLastKitten() {
   return kittens.splice(-1, 1);
 };
